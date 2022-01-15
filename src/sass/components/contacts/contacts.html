@@ -12,7 +12,6 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="./_contacts.scss" />
     <link rel="stylesheet" href="../../main.css" />
-    
 </head>
 <body>
     <section class="contacts-section" id="contacts">
@@ -134,7 +133,11 @@
                 </ul>
                 <ul class="contact-button__list">
                     <li class="contact-button__item">
-                        <button data-modal-open type="button" class="cotacts__button modal-locations__button">Our Locations</button>
+                        <button data-modal-open type="button" class="cotacts__button modal-locations__button">Our Locations
+                            <svg class="contacts-button__icon" width=4 height=8>
+                                <use href=./scr/images/sprite.svg#icon-vector></use>
+                            </svg>
+                        </button>
                     </li>
                     <li class="contact-button__item">
                         <button data-modal-open type="button" class="cotacts__button modal-locations__franchise">Franchise</button>
